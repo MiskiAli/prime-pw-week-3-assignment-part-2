@@ -28,7 +28,7 @@ console.log('count from 3 to 5');
 
 // 1.c. TODO: Write a for loop to console.log EVEN numbers from 2 to 10
 //   - Which part of the example loop do you need to change to do this?
-for (let i=2; i<10; i+=2) {  
+for (let i=2; i<11; i+=2) {  
   console.log(i);
 }
 
@@ -44,8 +44,8 @@ let stars = ['Polaris', 'Gacrux', 'Formalhaut', 'Rigel', 'Deneb']
 
 // 2.a. TODO: Write a for of loop to console.log each star in the 'stars' array
 
-for (let i=0; i<stars.length; i++) {  
-  console.log('for loop',stars [i]);
+for (names of stars ) {  
+  console.log(names);
 }
 
 
@@ -57,11 +57,12 @@ console.log('Some stars:');
 console.log('---- 3. While loop ----');
 
 // 3.a. TODO: Write a while loop to console.log each star in the 'stars' array
-while (stars){
-  console.log('while in loop. stars:', stars);
-  stars++;
-}
 
+let array = 0;
+while (array < stars.length){
+  console.log (stars[array]);
+  array++;
+}
 
 console.log('Some stars using while:');
 
